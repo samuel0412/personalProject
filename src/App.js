@@ -18,7 +18,7 @@ const App = () => {
           <ul>
             <li>Number</li>
             <li>String</li>
-            <li>BigInt</li>
+
             <li>Null</li>
             <li>Boolean</li>
             <li>Array</li>
