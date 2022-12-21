@@ -1,0 +1,57 @@
+.mainSec {
+  width: 100%;
+  padding-top: 10%;
+}
+.dropDownListSec {
+  width: 320px;
+  height: 40px;
+  background: #fff;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.dropDownHeaderText {
+  font-weight: 700;
+  color: rebeccapurple;
+}
+.dropDownHeaderIcon i {
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+}
+.dropDownHeaderIcon {
+  background: rebeccapurple;
+  padding: 5px;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.dropDownListSec.open .dropDownHeaderIcon {
+  transform: rotate(-180deg);
+}
+.dropDownList {
+  background: #fff;
+}
+
+.dropDownList {
+  width: 350px;
+  height: auto;
+  background: #fff;
+  margin: auto;
+  border-radius: 5px;
+  display: none;
+}
+.dropDownListSec.open ~ .dropDownList {
+  display: block !important;
+}
+.dropDownList ul li {
+  list-style: none;
+  line-height: 3;
+  padding: 0;
+}
+.dropDownList ul {
+  padding-left: 10px;
+}
