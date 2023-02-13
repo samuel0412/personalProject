@@ -1,0 +1,18 @@
+.loginLink {
+  text-decoration: none;
+  color: #ffff;
+  font-weight: 700;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+.loginLink :nth-child(2) {
+  margin-left: 10px;
+}
+
+.btnLogout {
+  color: #ffff;
+  font-weight: 600;
+  font-size: 25px;
+  cursor: pointer;
+}

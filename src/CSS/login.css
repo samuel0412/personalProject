@@ -1,0 +1,69 @@
+.loginMainSec {
+  background-image: url("/src/Images/home.jpg");
+  width: 100%;
+  height: 100vh;
+}
+.loginLftTextHead {
+  line-height: 1;
+}
+.loginLftTextHead h1 {
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 40px;
+}
+
+.loginLftPlanText p {
+  font-weight: 600;
+  font-size: 20px;
+  color: rgb(55, 53, 85);
+}
+.loginLft {
+  padding-top: 40px;
+}
+
+.loginRight {
+  width: 400px;
+  height: 400px;
+  margin-left: auto;
+  border: 2px solid #b3b2bd;
+  padding: 80px 10px 10px 10px;
+  border-radius: 8px;
+  background: #ffffff;
+  -webkit-box-shadow: -1px 5px 13px 1px rgba(0, 0, 0, 0.49);
+  -moz-box-shadow: -1px 5px 13px 1px rgba(0, 0, 0, 0.49);
+  box-shadow: -1px 5px 13px 1px rgba(0, 0, 0, 0.49);
+}
+.loginRight input {
+  padding: 10px;
+}
+.loginRight select {
+  padding: 10px;
+}
+.signInBtn {
+  width: 100%;
+  background: rgba(55, 53, 85) !important;
+  color: #fff !important;
+  font-weight: 600 !important;
+}
+/* loginMainSec */
+.loaderSection {
+  padding-top: 15%;
+}
+
+@media (max-width: 1920px) {
+}
+@media (max-width: 1680px) {
+}
+
+@media (max-width: 1440px) {
+}
+@media (max-width: 1366px) {
+}
+@media (max-width: 1280px) {
+}
+@media (max-width: 1200px) {
+}
+@media (max-width: 1024px) {
+}
+@media (max-width: 991px) {
+}
